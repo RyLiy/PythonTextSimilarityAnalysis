@@ -16843,3 +16843,4 @@ venv/Scripts/transformers-cli.exe
 venv/Scripts/weasel.exe
 venv/Scripts/wheel.exe
 venv/share/man/man1/isympy.1
+__pycache__/app.cpython-39.pyc
