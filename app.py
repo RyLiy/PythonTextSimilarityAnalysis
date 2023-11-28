@@ -1,5 +1,5 @@
 from flask import Flask, request
-import en_core_web_lg
+import en_core_web_md
 
 app = Flask(__name__)
 
@@ -17,7 +17,7 @@ def analysis():
 
 
 def evalSimilarity(expected,answer):
-    nlp = en_core_web_lg.load()
+    nlp = en_core_web_md.load()
     statement1 = nlp(expected)
     statement2 = nlp(answer)
 
