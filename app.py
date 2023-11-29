@@ -1,7 +1,10 @@
 from flask import Flask, request
+from flask_cors import CORS
 import en_core_web_md
 
 app = Flask(__name__)
+
+CORS(app)
 
 @app.route('/')
 def index():
